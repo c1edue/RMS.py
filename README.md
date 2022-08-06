@@ -3,5 +3,5 @@
 
 to run rms you need to enter the bot's telegram token in line 41 of main.py
 then specify the path to pyinstaller in line 15 of pyinstaller.bat
-
+use the victim's PC as a host for the telebot
 author of this shit c1edue

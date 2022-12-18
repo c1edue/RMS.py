@@ -60,7 +60,7 @@ def prtsc(message):
 def cmd(message):
 	try:
 		com = message.text
-		com = com.replace('/devol_cmd ','')
+		com = com.replace(f'/{name}_cmd ','')
 		subprocess.check_output(com)
 		bot.reply_to(message, 'Done')
 	except Exception as e:
